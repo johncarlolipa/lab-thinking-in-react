@@ -1,4 +1,4 @@
-// src/components/ProductRow.js
+
 
 import React from 'react';
 

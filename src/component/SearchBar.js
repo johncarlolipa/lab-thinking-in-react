@@ -1,5 +1,3 @@
-// src/components/SearchBar.js
-
 import React from 'react';
 
 function SearchBar({ onSearchChange, onCheckboxChange, showInStock }) {

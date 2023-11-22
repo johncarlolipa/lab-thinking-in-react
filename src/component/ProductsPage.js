@@ -1,4 +1,3 @@
-// src/components/ProductsPage.js
 
 import React, { useState } from "react";
 import jsonData from "../data.json";
@@ -18,7 +17,7 @@ function ProductsPage() {
     setShowInStock(value);
   };
 
-  // Filter products based on search string and checkbox value
+  // Filter products 
   const filteredProducts = products.filter((product) => {
     const matchesSearch = product.name
       .toLowerCase()
